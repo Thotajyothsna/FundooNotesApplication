@@ -1,0 +1,13 @@
+C:\Users\oooyeeeee\source\repos\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+C:\Users\oooyeeeee\source\repos\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+C:\Users\oooyeeeee\source\repos\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+C:\Users\oooyeeeee\source\repos\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.AssemblyReference.cache
+C:\Users\oooyeeeee\source\repos\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oooyeeeee\source\repos\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+C:\Users\oooyeeeee\source\repos\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+C:\Users\oooyeeeee\source\repos\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+C:\Users\oooyeeeee\source\repos\ModelLayer\obj\Debug\net6.0\ModelLayer.sourcelink.json
+C:\Users\oooyeeeee\source\repos\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+C:\Users\oooyeeeee\source\repos\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+C:\Users\oooyeeeee\source\repos\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+C:\Users\oooyeeeee\source\repos\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
