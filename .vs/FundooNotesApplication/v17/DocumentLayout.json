@@ -1,0 +1,1237 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\InventoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\InventoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\services\\inventoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\interfaces\\iinventorybussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\services\\inventorybussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\interfaces\\iinventoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\interfaces\\icollaboratorsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\entities\\inventoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\interfaces\\inotesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\interfaces\\ilabelsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240612151438_Label3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240615054726_Inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\context\\fundoonotescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\stockupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\inventorystockmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\services\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\controllers\\labelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:controllers\\labelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\services\\collaboratorsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\services\\productsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\services\\labelsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\services\\notesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\controllers\\collaboratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:controllers\\collaboratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\fundoonotesapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:fundoonotesapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\nlog.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:nlog.config||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\nlog.config||{68B46364-D378-42F2-9E72-37D86C5F4468}",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:nlog.config||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\collaboratorsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\services\\collaboratorsbussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\interfaces\\icollaboratorsbussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\services\\labelsbussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\interfaces\\ilabelsbussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\entities\\collaboratorsentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\entities\\labelsentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\entities\\notesentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\renamelabelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\labelsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\services\\notesbussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\interfaces\\inotesbussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\migrations\\fundoonotescontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240612155148_Label2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\migrations\\20240610030613_notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\migrations\\20240610030927_notes1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\notesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\updatenotesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\services\\productsbussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\interfaces\\iuserbussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\services\\userbussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\interfaces\\iproductsbussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\interfaces\\iproductsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\productsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\entities\\productsentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\send.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\model\\userregmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\migrations\\20240603140501_user1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\migrations\\20240604100947_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\modellayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\bussinesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\repositorylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|c:\\users\\oooyeeeee\\source\\repos\\fundoonotesapplication\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D02D9072-6BEC-4A6A-847E-E38EB36F938D}|FundooNotesApplication.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7EBD1C-B105-4817-ADF8-3C97C6554F14}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\bussinesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BE8E49-240D-4D3F-A72F-8964C34D0BC8}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\modellayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\migrations\\20240605113652_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\migrations\\20240605113824_initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\migrations\\20240610045158_products1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\migrations\\20240610044750_products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\migrations\\20240612161804_label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36DAD910-DB3E-4962-BB91-147875EEE086}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\oooyeeeee\\source\\repos\\repositorylayer\\migrations\\20240613094003_collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\OnlyWarehouseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\OnlyStockModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "Controllers\\InventoryController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAswFkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T05:27:45.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Services\\InventoryBussiness.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Services\\InventoryBussiness.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Services\\InventoryBussiness.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Services\\InventoryBussiness.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAgwCkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T04:51:22.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IInventoryBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Interfaces\\IInventoryBussiness.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Interfaces\\IInventoryBussiness.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Interfaces\\IInventoryBussiness.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Interfaces\\IInventoryBussiness.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T04:51:45.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Services\\InventoryRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Services\\InventoryRepo.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Services\\InventoryRepo.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Services\\InventoryRepo.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAApwFIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T04:50:25.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICollaboratorsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Interfaces\\ICollaboratorsRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Interfaces\\ICollaboratorsRepo.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Interfaces\\ICollaboratorsRepo.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Interfaces\\ICollaboratorsRepo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:49:55.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAQAAAAAAAAAAADgvw4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-03T13:02:28.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IInventoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Interfaces\\IInventoryRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Interfaces\\IInventoryRepo.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Interfaces\\IInventoryRepo.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Interfaces\\IInventoryRepo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T04:50:53.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InventoryEntity.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Entities\\InventoryEntity.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Entities\\InventoryEntity.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Entities\\InventoryEntity.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Entities\\InventoryEntity.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T04:44:43.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "OnlyWarehouseModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\OnlyWarehouseModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\OnlyWarehouseModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\OnlyWarehouseModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\OnlyWarehouseModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T06:20:52.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "OnlyStockModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\OnlyStockModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\OnlyStockModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\OnlyStockModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\OnlyStockModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T06:19:32.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwCoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T13:06:48.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAArwCkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T05:17:36.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwGQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T05:25:59.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240615054726_Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240615054726_Inventory.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240615054726_Inventory.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240615054726_Inventory.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240615054726_Inventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T05:47:26.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FundooNotesContext.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Context\\FundooNotesContext.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Context\\FundooNotesContext.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Context\\FundooNotesContext.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Context\\FundooNotesContext.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T12:33:37.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InventoryStockModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\InventoryStockModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\InventoryStockModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\InventoryStockModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\InventoryStockModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T04:52:31.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StockUpdateModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\StockUpdateModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\StockUpdateModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\StockUpdateModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\StockUpdateModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T05:08:57.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Services\\ProductsRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Services\\ProductsRepo.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Services\\ProductsRepo.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Services\\ProductsRepo.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAYwCMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:44:18.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotesController.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "Controllers\\NotesController.cs",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAAAGAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T03:01:50.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotesRepo.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Services\\NotesRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Services\\NotesRepo.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Services\\NotesRepo.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Services\\NotesRepo.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwBsAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T03:24:14.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CollaboratorsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Services\\CollaboratorsRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Services\\CollaboratorsRepo.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Services\\CollaboratorsRepo.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Services\\CollaboratorsRepo.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwE8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:49:10.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LabelsController.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\LabelsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LabelsController.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\LabelsController.cs",
+              "RelativeToolTip": "Controllers\\LabelsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:46:52.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LabelsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Services\\LabelsRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Services\\LabelsRepo.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Services\\LabelsRepo.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Services\\LabelsRepo.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAowF4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:34:33.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Services\\UserRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Services\\UserRepo.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Services\\UserRepo.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Services\\UserRepo.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAwDEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T11:55:03.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CollaboratorsController.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\CollaboratorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CollaboratorsController.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\CollaboratorsController.cs",
+              "RelativeToolTip": "Controllers\\CollaboratorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwFAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T11:17:24.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FundooNotesApplication.csproj",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\FundooNotesApplication.csproj",
+              "RelativeDocumentMoniker": "FundooNotesApplication.csproj",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\FundooNotesApplication.csproj",
+              "RelativeToolTip": "FundooNotesApplication.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-03T09:12:04.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NLog.config",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\NLog.config",
+              "RelativeDocumentMoniker": "NLog.config",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\NLog.config",
+              "RelativeToolTip": "NLog.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-14T03:33:22.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NLog.config",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\NLog.config",
+              "RelativeDocumentMoniker": "NLog.config",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\NLog.config",
+              "RelativeToolTip": "NLog.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-13T12:04:10.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NLog.config",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\NLog.config",
+              "RelativeDocumentMoniker": "NLog.config",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\NLog.config",
+              "RelativeToolTip": "NLog.config",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-13T12:03:30.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CollaboratorsModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\CollaboratorsModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\CollaboratorsModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\CollaboratorsModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\CollaboratorsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:01:14.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CollaboratorsBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Services\\CollaboratorsBussiness.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Services\\CollaboratorsBussiness.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Services\\CollaboratorsBussiness.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Services\\CollaboratorsBussiness.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwCAAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:51:12.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICollaboratorsBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Interfaces\\ICollaboratorsBussiness.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Interfaces\\ICollaboratorsBussiness.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Interfaces\\ICollaboratorsBussiness.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Interfaces\\ICollaboratorsBussiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:52:58.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LabelsBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Services\\LabelsBussiness.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Services\\LabelsBussiness.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Services\\LabelsBussiness.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Services\\LabelsBussiness.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwCkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:40:53.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ILabelsBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Interfaces\\ILabelsBussiness.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Interfaces\\ILabelsBussiness.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Interfaces\\ILabelsBussiness.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Interfaces\\ILabelsBussiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:45:49.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CollaboratorsEntity.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Entities\\CollaboratorsEntity.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Entities\\CollaboratorsEntity.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Entities\\CollaboratorsEntity.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Entities\\CollaboratorsEntity.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:22:34.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "20240613094003_Collaborator.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240613094003_Collaborator.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240613094003_Collaborator.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240613094003_Collaborator.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240613094003_Collaborator.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:40:04.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LabelsEntity.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Entities\\LabelsEntity.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Entities\\LabelsEntity.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Entities\\LabelsEntity.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Entities\\LabelsEntity.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBZwAYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T15:38:14.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "NotesEntity.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Entities\\NotesEntity.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Entities\\NotesEntity.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Entities\\NotesEntity.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Entities\\NotesEntity.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA9wBoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T03:09:00.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ILabelsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Interfaces\\ILabelsRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Interfaces\\ILabelsRepo.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Interfaces\\ILabelsRepo.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Interfaces\\ILabelsRepo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:35:23.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RenameLabelModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\RenameLabelModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\RenameLabelModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\RenameLabelModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\RenameLabelModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T02:44:23.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LabelsModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\LabelsModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\LabelsModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\LabelsModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\LabelsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:40:08.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "NotesBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Services\\NotesBussiness.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Services\\NotesBussiness.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Services\\NotesBussiness.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Services\\NotesBussiness.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAtwD0AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T03:52:04.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "INotesBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Interfaces\\INotesBussiness.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Interfaces\\INotesBussiness.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Interfaces\\INotesBussiness.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Interfaces\\INotesBussiness.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwBYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T03:54:19.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "20240612161804_Label.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240612161804_Label.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240612161804_Label.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240612161804_Label.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240612161804_Label.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwC0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:18:04.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20240612155148_Label2.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240612155148_Label2.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240612155148_Label2.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240612155148_Label2.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240612155148_Label2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T15:51:48.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FundooNotesContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\FundooNotesContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\FundooNotesContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\FundooNotesContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\FundooNotesContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:06:58.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240612151438_Label3.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240612151438_Label3.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240612151438_Label3.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240612151438_Label3.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240612151438_Label3.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T15:14:39.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20240610030613_notes.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240610030613_notes.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240610030613_notes.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240610030613_notes.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240610030613_notes.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB8AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T03:06:13.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20240610030927_notes1.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240610030927_notes1.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240610030927_notes1.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240610030927_notes1.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240610030927_notes1.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T03:09:27.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "INotesRepo.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Interfaces\\INotesRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Interfaces\\INotesRepo.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Interfaces\\INotesRepo.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Interfaces\\INotesRepo.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA5wBYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T03:49:14.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "NotesModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\NotesModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\NotesModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\NotesModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\NotesModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T03:15:02.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateNotesModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\UpdateNotesModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\UpdateNotesModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\UpdateNotesModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\UpdateNotesModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBZwA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:44:32.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserLoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\UserLoginModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\UserLoginModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\UserLoginModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\UserLoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T03:42:43.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ForgotPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\ForgotPasswordModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\ForgotPasswordModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\ForgotPasswordModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\ForgotPasswordModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T10:50:38.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ResetPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\ResetPasswordModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\ResetPasswordModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\ResetPasswordModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\ResetPasswordModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T05:05:41.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ProductsBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Services\\ProductsBussiness.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Services\\ProductsBussiness.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Services\\ProductsBussiness.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Services\\ProductsBussiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwA8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:45:27.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IUserBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Interfaces\\IUserBussiness.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Interfaces\\IUserBussiness.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Interfaces\\IUserBussiness.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Interfaces\\IUserBussiness.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAxwBQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:36:35.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Services\\UserBussiness.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Services\\UserBussiness.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Services\\UserBussiness.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Services\\UserBussiness.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswDUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:20:43.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Interfaces\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Interfaces\\IUserRepo.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Interfaces\\IUserRepo.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Interfaces\\IUserRepo.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwBQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:09:19.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IProductsBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Interfaces\\IProductsBussiness.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Interfaces\\IProductsBussiness.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Interfaces\\IProductsBussiness.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Interfaces\\IProductsBussiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:45:53.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IProductsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Interfaces\\IProductsRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Interfaces\\IProductsRepo.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Interfaces\\IProductsRepo.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Interfaces\\IProductsRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:44:56.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ProductsModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\ProductsModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\ProductsModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\ProductsModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\ProductsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:43:24.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "20240610045158_products1.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240610045158_products1.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240610045158_products1.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240610045158_products1.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240610045158_products1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:51:58.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "20240610044750_products.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240610044750_products.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240610044750_products.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240610044750_products.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240610044750_products.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:47:51.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ProductsEntity.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Entities\\ProductsEntity.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Entities\\ProductsEntity.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Entities\\ProductsEntity.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Entities\\ProductsEntity.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:38:29.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Send.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\Send.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\Send.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\Send.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\Send.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T10:28:24.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "UserRegModel.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\UserRegModel.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\UserRegModel.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Model\\UserRegModel.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\UserRegModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T11:58:20.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Entities\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Entities\\UserEntity.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T12:12:29.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:09:39.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "20240605113652_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240605113652_Initial.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240605113652_Initial.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240605113652_Initial.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240605113652_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T11:36:52.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20240605113824_Initial1.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240605113824_Initial1.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240605113824_Initial1.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240605113824_Initial1.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240605113824_Initial1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T11:38:24.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20240603140501_user1.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240603140501_user1.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240603140501_user1.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240603140501_user1.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240603140501_user1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T14:05:02.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20240604100947_user.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240604100947_user.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Migrations\\20240604100947_user.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Migrations\\20240604100947_user.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Migrations\\20240604100947_user.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:09:48.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ModelLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\ModelLayer.csproj",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\ModelLayer.csproj",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\ModelLayer.csproj",
+              "RelativeToolTip": "..\\ModelLayer\\ModelLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-04T11:57:48.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "BussinessLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\BussinessLayer.csproj",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\BussinessLayer.csproj",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\BussinessLayer.csproj",
+              "RelativeToolTip": "..\\BussinessLayer\\BussinessLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-03T09:25:37.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\FundooNotesApplication\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:00:58.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "RepositoryLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\RepositoryLayer.csproj",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\RepositoryLayer.csproj",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\RepositoryLayer.csproj",
+              "RelativeToolTip": "..\\RepositoryLayer\\RepositoryLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-03T09:16:35.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Class1.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\ModelLayer\\Class1.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T09:15:39.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\Class1.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\BussinessLayer\\Class1.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T09:14:50.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Class1.cs",
+              "ToolTip": "C:\\Users\\oooyeeeee\\source\\repos\\RepositoryLayer\\Class1.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T09:13:56.638Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

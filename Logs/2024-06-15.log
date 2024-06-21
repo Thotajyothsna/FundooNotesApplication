@@ -1,0 +1,457 @@
+2024-06-15 08:59:21.6417 ${level} User profile is available. Using 'C:\Users\oooyeeeee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 08:59:23.8078 ${level} Application started. Press Ctrl+C to shut down.
+2024-06-15 08:59:23.8078 ${level} Hosting environment: Development
+2024-06-15 08:59:23.8078 ${level} Content root path: C:\Users\oooyeeeee\source\repos\FundooNotesApplication\
+2024-06-15 08:59:23.8676 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 08:59:24.2828 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 416.1095ms
+2024-06-15 08:59:24.2981 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 08:59:24.3181 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 08:59:24.3181 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 29.4210ms
+2024-06-15 08:59:24.5362 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 218.1203ms
+2024-06-15 08:59:24.6051 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 08:59:24.8576 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 252.5418ms
+2024-06-15 08:59:41.3417 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Notes/Reddis - -
+2024-06-15 08:59:41.4677 ${level} Executing endpoint 'FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication)'
+2024-06-15 08:59:41.4984 ${level} Route matched with {action = "GetAllNotesUsingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsingRedisCache() on controller FundooNotesApplication.Controllers.NotesController (FundooNotesApplication).
+2024-06-15 08:59:43.1044 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 08:59:44.2646 ${level} Executed DbCommand (76ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Remainder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+2024-06-15 08:59:44.5830 ${level} Executed action FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication) in 3080.6452ms
+2024-06-15 08:59:44.5848 ${level} Executed endpoint 'FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication)'
+2024-06-15 08:59:44.5848 ${level} An unhandled exception has occurred while executing the request.
+2024-06-15 08:59:44.7883 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Notes/Reddis - - - 500 - text/plain;+charset=utf-8 3446.6225ms
+2024-06-15 09:01:11.0245 ${level} Request starting HTTP/2 POST https://localhost:44348/api/User/Login application/json 62
+2024-06-15 09:01:11.0245 ${level} Executing endpoint 'FundooNotesApplication.Controllers.UserController.Login (FundooNotesApplication)'
+2024-06-15 09:01:11.0497 ${level} Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(ModelLayer.Model.UserLoginModel) on controller FundooNotesApplication.Controllers.UserController (FundooNotesApplication).
+2024-06-15 09:01:11.1051 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 09:01:11.2509 ${level} Executed DbCommand (55ms) [Parameters=[@__logModel_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__logModel_Email_0
+2024-06-15 09:01:11.3850 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-06-15 09:01:11.3850 ${level} Executed action FundooNotesApplication.Controllers.UserController.Login (FundooNotesApplication) in 340.2984ms
+2024-06-15 09:01:11.3850 ${level} Executed endpoint 'FundooNotesApplication.Controllers.UserController.Login (FundooNotesApplication)'
+2024-06-15 09:01:11.3850 ${level} Request finished HTTP/2 POST https://localhost:44348/api/User/Login application/json 62 - 200 - application/json;+charset=utf-8 367.5958ms
+2024-06-15 09:01:50.7240 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Notes/Reddis - -
+2024-06-15 09:01:50.7986 ${level} Executing endpoint 'FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication)'
+2024-06-15 09:01:50.7986 ${level} Route matched with {action = "GetAllNotesUsingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsingRedisCache() on controller FundooNotesApplication.Controllers.NotesController (FundooNotesApplication).
+2024-06-15 09:01:50.8665 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 09:01:50.8665 ${level} Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Remainder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+2024-06-15 09:01:50.8665 ${level} Executed action FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication) in 74.6391ms
+2024-06-15 09:01:50.8665 ${level} Executed endpoint 'FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication)'
+2024-06-15 09:01:50.8665 ${level} An unhandled exception has occurred while executing the request.
+2024-06-15 09:01:50.8665 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Notes/Reddis - - - 500 - text/plain;+charset=utf-8 155.4035ms
+2024-06-15 09:06:16.9452 ${level} User profile is available. Using 'C:\Users\oooyeeeee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 09:06:17.3442 ${level} Application started. Press Ctrl+C to shut down.
+2024-06-15 09:06:17.3442 ${level} Hosting environment: Development
+2024-06-15 09:06:17.3442 ${level} Content root path: C:\Users\oooyeeeee\source\repos\FundooNotesApplication\
+2024-06-15 09:06:17.3695 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 09:06:17.6014 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 232.4504ms
+2024-06-15 09:06:17.6014 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 09:06:17.6014 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 09:06:17.6014 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 6.6964ms
+2024-06-15 09:06:17.6748 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.5178ms
+2024-06-15 09:06:17.8439 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 09:06:17.9637 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.7427ms
+2024-06-15 09:06:35.0639 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Notes/Reddis - -
+2024-06-15 09:06:35.0993 ${level} Executing endpoint 'FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication)'
+2024-06-15 09:06:35.1159 ${level} Route matched with {action = "GetAllNotesUsingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsingRedisCache() on controller FundooNotesApplication.Controllers.NotesController (FundooNotesApplication).
+2024-06-15 09:06:36.1414 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 09:06:36.7128 ${level} Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Remainder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+2024-06-15 09:06:36.9301 ${level} Executed action FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication) in 1810.4336ms
+2024-06-15 09:06:36.9301 ${level} Executed endpoint 'FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication)'
+2024-06-15 09:06:36.9301 ${level} An unhandled exception has occurred while executing the request.
+2024-06-15 09:06:36.9782 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Notes/Reddis - - - 500 - text/plain;+charset=utf-8 1914.3639ms
+2024-06-15 09:11:37.0413 ${level} User profile is available. Using 'C:\Users\oooyeeeee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 09:11:37.4019 ${level} Application started. Press Ctrl+C to shut down.
+2024-06-15 09:11:37.4019 ${level} Hosting environment: Development
+2024-06-15 09:11:37.4019 ${level} Content root path: C:\Users\oooyeeeee\source\repos\FundooNotesApplication\
+2024-06-15 09:11:37.4221 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 09:11:37.6538 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 233.0092ms
+2024-06-15 09:11:37.6623 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 09:11:37.6623 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 09:11:37.6623 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 5.3253ms
+2024-06-15 09:11:37.7070 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.5887ms
+2024-06-15 09:11:37.9121 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 09:11:38.0290 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 116.9270ms
+2024-06-15 09:11:49.2318 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Notes/Reddis - -
+2024-06-15 09:11:49.2643 ${level} Executing endpoint 'FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication)'
+2024-06-15 09:11:49.2790 ${level} Route matched with {action = "GetAllNotesUsingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsingRedisCache() on controller FundooNotesApplication.Controllers.NotesController (FundooNotesApplication).
+2024-06-15 09:11:50.4186 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 09:11:51.0064 ${level} Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Remainder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+2024-06-15 09:11:51.1970 ${level} Executing ObjectResult, writing value of type 'System.String'.
+2024-06-15 09:11:51.1970 ${level} Executed action FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication) in 1918.9563ms
+2024-06-15 09:11:51.1970 ${level} Executed endpoint 'FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication)'
+2024-06-15 09:11:51.1970 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Notes/Reddis - - - 500 - text/plain;+charset=utf-8 1978.6738ms
+2024-06-15 09:15:04.9621 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 09:15:04.9621 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 6.7398ms
+2024-06-15 09:15:04.9799 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 09:15:04.9799 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 09:15:04.9799 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 1.2372ms
+2024-06-15 09:15:04.9955 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.6189ms
+2024-06-15 09:15:05.1409 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 09:15:05.1535 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 12.5113ms
+2024-06-15 09:15:25.7736 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Notes/Reddis - -
+2024-06-15 09:15:25.7736 ${level} Executing endpoint 'FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication)'
+2024-06-15 09:15:25.7736 ${level} Route matched with {action = "GetAllNotesUsingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsingRedisCache() on controller FundooNotesApplication.Controllers.NotesController (FundooNotesApplication).
+2024-06-15 09:15:25.7736 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 09:15:25.8092 ${level} Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Remainder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+2024-06-15 09:15:25.8092 ${level} Executing ObjectResult, writing value of type 'System.String'.
+2024-06-15 09:15:25.8092 ${level} Executed action FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication) in 28.7149ms
+2024-06-15 09:15:25.8092 ${level} Executed endpoint 'FundooNotesApplication.Controllers.NotesController.GetAllNotesUsingRedisCache (FundooNotesApplication)'
+2024-06-15 09:15:25.8092 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Notes/Reddis - - - 500 - text/plain;+charset=utf-8 41.4941ms
+2024-06-15 11:15:59.2786 ${level} User profile is available. Using 'C:\Users\oooyeeeee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 11:16:01.2606 ${level} Application started. Press Ctrl+C to shut down.
+2024-06-15 11:16:01.2761 ${level} Hosting environment: Development
+2024-06-15 11:16:01.2761 ${level} Content root path: C:\Users\oooyeeeee\source\repos\FundooNotesApplication\
+2024-06-15 11:16:01.3575 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 11:16:03.1217 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 1767.9930ms
+2024-06-15 11:16:03.1501 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 11:16:03.1501 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 11:16:03.2623 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 110.9760ms
+2024-06-15 11:16:03.5723 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 421.9620ms
+2024-06-15 11:16:03.7625 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 11:16:04.4524 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 689.9145ms
+2024-06-15 11:16:16.2672 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - -
+2024-06-15 11:16:16.4683 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:16:16.5046 ${level} Route matched with {action = "GetAllProducts", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:16:16.5334 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication) in 11.7616ms
+2024-06-15 11:16:16.5334 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:16:26.4998 ${level} Error closing the session.
+2024-06-15 11:16:26.5145 ${level} An unhandled exception has occurred while executing the request.
+2024-06-15 11:16:26.7400 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - - - 500 - text/plain;+charset=utf-8 10472.6108ms
+2024-06-15 11:17:20.9460 ${level} User profile is available. Using 'C:\Users\oooyeeeee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 11:17:22.4989 ${level} Application started. Press Ctrl+C to shut down.
+2024-06-15 11:17:22.5129 ${level} Hosting environment: Development
+2024-06-15 11:17:22.5129 ${level} Content root path: C:\Users\oooyeeeee\source\repos\FundooNotesApplication\
+2024-06-15 11:17:22.5950 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 11:17:23.5789 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 988.5012ms
+2024-06-15 11:17:23.6096 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 11:17:23.6096 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 11:17:23.6296 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 15.2586ms
+2024-06-15 11:17:23.8818 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 272.1083ms
+2024-06-15 11:17:24.2783 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 11:17:24.7878 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 509.4879ms
+2024-06-15 11:18:13.2657 ${level} User profile is available. Using 'C:\Users\oooyeeeee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 11:18:14.7782 ${level} Application started. Press Ctrl+C to shut down.
+2024-06-15 11:18:14.8086 ${level} Hosting environment: Development
+2024-06-15 11:18:14.8086 ${level} Content root path: C:\Users\oooyeeeee\source\repos\FundooNotesApplication\
+2024-06-15 11:18:14.8601 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 11:18:15.9390 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 1080.7430ms
+2024-06-15 11:18:15.9664 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 11:18:15.9664 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 11:18:15.9913 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 23.5947ms
+2024-06-15 11:18:16.1677 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 201.2371ms
+2024-06-15 11:18:16.4703 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 11:18:17.0628 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 592.3655ms
+2024-06-15 11:20:41.9158 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - -
+2024-06-15 11:20:42.0087 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:20:42.0292 ${level} Route matched with {action = "GetAllProducts", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:20:42.0450 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication) in 4.7067ms
+2024-06-15 11:20:42.0450 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:20:51.5458 ${level} Error closing the session.
+2024-06-15 11:20:51.5636 ${level} An unhandled exception has occurred while executing the request.
+2024-06-15 11:20:51.6690 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - - - 500 - text/plain;+charset=utf-8 9752.9006ms
+2024-06-15 11:22:17.3389 ${level} User profile is available. Using 'C:\Users\oooyeeeee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 11:22:20.9592 ${level} Application started. Press Ctrl+C to shut down.
+2024-06-15 11:22:20.9822 ${level} Hosting environment: Development
+2024-06-15 11:22:20.9822 ${level} Content root path: C:\Users\oooyeeeee\source\repos\FundooNotesApplication\
+2024-06-15 11:22:21.0933 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 11:22:22.7942 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 11:22:22.7942 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 1711.4061ms
+2024-06-15 11:22:22.8183 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 23.2348ms
+2024-06-15 11:22:22.9874 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 11:22:23.4081 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 420.8216ms
+2024-06-15 11:22:23.5808 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 11:22:24.5094 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 925.4021ms
+2024-06-15 11:22:31.6870 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - -
+2024-06-15 11:22:32.2683 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:22:32.3361 ${level} Route matched with {action = "GetAllProducts", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:22:32.3596 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication) in 6.3728ms
+2024-06-15 11:22:32.3667 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:22:42.6005 ${level} Error closing the session.
+2024-06-15 11:22:42.6812 ${level} An unhandled exception has occurred while executing the request.
+2024-06-15 11:22:43.1706 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - - - 500 - text/plain;+charset=utf-8 11483.6113ms
+2024-06-15 11:24:28.3952 ${level} User profile is available. Using 'C:\Users\oooyeeeee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 11:24:29.3935 ${level} Application started. Press Ctrl+C to shut down.
+2024-06-15 11:24:29.3986 ${level} Hosting environment: Development
+2024-06-15 11:24:29.3986 ${level} Content root path: C:\Users\oooyeeeee\source\repos\FundooNotesApplication\
+2024-06-15 11:24:29.4881 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 11:24:30.9632 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 1495.7206ms
+2024-06-15 11:24:30.9796 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 11:24:31.0007 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 11:24:31.0503 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 49.2667ms
+2024-06-15 11:24:31.2756 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 295.9429ms
+2024-06-15 11:24:31.4143 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 11:24:31.9432 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 528.8764ms
+2024-06-15 11:24:39.0534 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - -
+2024-06-15 11:24:39.1628 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:24:39.1891 ${level} Route matched with {action = "GetAllProducts", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:24:39.2062 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication) in 5.0375ms
+2024-06-15 11:24:39.2062 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:24:48.6868 ${level} Error closing the session.
+2024-06-15 11:24:48.7032 ${level} An unhandled exception has occurred while executing the request.
+2024-06-15 11:24:48.8121 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - - - 500 - text/plain;+charset=utf-8 9758.5170ms
+2024-06-15 11:27:17.5676 ${level} User profile is available. Using 'C:\Users\oooyeeeee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 11:27:18.5899 ${level} Application started. Press Ctrl+C to shut down.
+2024-06-15 11:27:18.5899 ${level} Hosting environment: Development
+2024-06-15 11:27:18.5899 ${level} Content root path: C:\Users\oooyeeeee\source\repos\FundooNotesApplication\
+2024-06-15 11:27:18.6369 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 11:27:19.2898 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 655.8138ms
+2024-06-15 11:27:19.2898 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 11:27:19.3266 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 11:27:19.3589 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 31.9921ms
+2024-06-15 11:27:19.5467 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 245.6554ms
+2024-06-15 11:27:19.8626 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 11:27:20.3510 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 488.3705ms
+2024-06-15 11:27:35.8967 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 11:27:35.9129 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 16.2048ms
+2024-06-15 11:27:35.9428 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 11:27:35.9428 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 11:27:35.9500 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 4.6640ms
+2024-06-15 11:27:35.9906 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.4525ms
+2024-06-15 11:27:36.1273 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 11:27:36.1683 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 41.1104ms
+2024-06-15 11:27:41.8026 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - -
+2024-06-15 11:27:41.9040 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:27:41.9316 ${level} Route matched with {action = "GetAllProducts", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:27:45.2209 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:27:47.3595 ${level} Executed DbCommand (91ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[ProductId], [i].[Last_Updated], [i].[Quantity_In_Stock], [i].[WarehouseId]
+FROM [InventoryTable] AS [i]
+2024-06-15 11:27:47.4679 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RepositoryLayer.Entities.InventoryEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-06-15 11:27:47.5218 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication) in 5580.7735ms
+2024-06-15 11:27:47.5218 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:27:57.0081 ${level} Error closing the session.
+2024-06-15 11:27:57.0403 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - - - 200 - application/json;+charset=utf-8 15237.5741ms
+2024-06-15 11:29:59.2982 ${level} User profile is available. Using 'C:\Users\oooyeeeee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 11:30:01.6296 ${level} Application started. Press Ctrl+C to shut down.
+2024-06-15 11:30:01.6388 ${level} Hosting environment: Development
+2024-06-15 11:30:01.6491 ${level} Content root path: C:\Users\oooyeeeee\source\repos\FundooNotesApplication\
+2024-06-15 11:30:01.7306 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 11:30:03.1313 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 11:30:03.1313 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 11:30:03.1313 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 1421.9083ms
+2024-06-15 11:30:03.1609 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 29.2207ms
+2024-06-15 11:30:03.4369 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 304.8743ms
+2024-06-15 11:30:03.5701 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 11:30:04.4004 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 830.1922ms
+2024-06-15 11:30:10.8255 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - -
+2024-06-15 11:30:11.0958 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:30:11.1272 ${level} Route matched with {action = "GetAllProducts", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:30:15.8499 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:30:19.2135 ${level} Executed DbCommand (181ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[ProductId], [i].[Last_Updated], [i].[Quantity_In_Stock], [i].[WarehouseId]
+FROM [InventoryTable] AS [i]
+2024-06-15 11:30:19.3830 ${level} Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-06-15 11:30:19.4492 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication) in 8306.9725ms
+2024-06-15 11:30:19.4492 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:30:29.2271 ${level} Error closing the session.
+2024-06-15 11:30:29.2617 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - - - 400 - application/json;+charset=utf-8 18436.1412ms
+2024-06-15 11:30:54.1098 ${level} Request starting HTTP/2 POST https://localhost:44348/api/Inventory/AddStock application/json 46
+2024-06-15 11:30:54.1228 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication)'
+2024-06-15 11:30:54.1579 ${level} Route matched with {action = "AddStocks", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddStocks(ModelLayer.Model.InventoryStockModel) on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:30:54.2373 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:30:54.9728 ${level} Executed DbCommand (136ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [InventoryTable] ([Last_Updated], [Quantity_In_Stock], [WarehouseId])
+VALUES (@p0, @p1, @p2);
+SELECT [ProductId]
+FROM [InventoryTable]
+WHERE @@ROWCOUNT = 1 AND [ProductId] = scope_identity();
+2024-06-15 11:30:55.1226 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[RepositoryLayer.Entities.InventoryEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 11:30:55.1438 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication) in 985.1891ms
+2024-06-15 11:30:55.1438 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication)'
+2024-06-15 11:31:04.3126 ${level} Error closing the session.
+2024-06-15 11:31:04.3194 ${level} Request finished HTTP/2 POST https://localhost:44348/api/Inventory/AddStock application/json 46 - 200 - application/json;+charset=utf-8 10209.0532ms
+2024-06-15 11:31:25.5375 ${level} Request starting HTTP/2 POST https://localhost:44348/api/Inventory/AddStock application/json 46
+2024-06-15 11:31:25.5508 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication)'
+2024-06-15 11:31:25.5535 ${level} Route matched with {action = "AddStocks", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddStocks(ModelLayer.Model.InventoryStockModel) on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:31:25.8451 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:31:25.8579 ${level} Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [InventoryTable] ([Last_Updated], [Quantity_In_Stock], [WarehouseId])
+VALUES (@p0, @p1, @p2);
+SELECT [ProductId]
+FROM [InventoryTable]
+WHERE @@ROWCOUNT = 1 AND [ProductId] = scope_identity();
+2024-06-15 11:31:25.8657 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[RepositoryLayer.Entities.InventoryEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 11:31:25.8657 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication) in 311.4771ms
+2024-06-15 11:31:25.8657 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication)'
+2024-06-15 11:31:29.9626 ${level} Error closing the session.
+2024-06-15 11:31:29.9626 ${level} Request finished HTTP/2 POST https://localhost:44348/api/Inventory/AddStock application/json 46 - 200 - application/json;+charset=utf-8 4433.8757ms
+2024-06-15 11:31:41.5937 ${level} Request starting HTTP/2 POST https://localhost:44348/api/Inventory/AddStock application/json 45
+2024-06-15 11:31:41.5937 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication)'
+2024-06-15 11:31:41.5937 ${level} Route matched with {action = "AddStocks", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddStocks(ModelLayer.Model.InventoryStockModel) on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:31:41.5937 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:31:41.6141 ${level} Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [InventoryTable] ([Last_Updated], [Quantity_In_Stock], [WarehouseId])
+VALUES (@p0, @p1, @p2);
+SELECT [ProductId]
+FROM [InventoryTable]
+WHERE @@ROWCOUNT = 1 AND [ProductId] = scope_identity();
+2024-06-15 11:31:41.6205 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[RepositoryLayer.Entities.InventoryEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 11:31:41.6205 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication) in 25.7412ms
+2024-06-15 11:31:41.6205 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication)'
+2024-06-15 11:31:45.6785 ${level} Error closing the session.
+2024-06-15 11:31:45.6785 ${level} Request finished HTTP/2 POST https://localhost:44348/api/Inventory/AddStock application/json 45 - 200 - application/json;+charset=utf-8 4087.9521ms
+2024-06-15 11:31:55.2214 ${level} Request starting HTTP/2 POST https://localhost:44348/api/Inventory/AddStock application/json 46
+2024-06-15 11:31:55.2214 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication)'
+2024-06-15 11:31:55.2214 ${level} Route matched with {action = "AddStocks", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddStocks(ModelLayer.Model.InventoryStockModel) on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:31:55.2252 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:31:55.2252 ${level} Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [InventoryTable] ([Last_Updated], [Quantity_In_Stock], [WarehouseId])
+VALUES (@p0, @p1, @p2);
+SELECT [ProductId]
+FROM [InventoryTable]
+WHERE @@ROWCOUNT = 1 AND [ProductId] = scope_identity();
+2024-06-15 11:31:55.2409 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[RepositoryLayer.Entities.InventoryEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 11:31:55.2409 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication) in 19.0635ms
+2024-06-15 11:31:55.2409 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication)'
+2024-06-15 11:32:04.3787 ${level} Error closing the session.
+2024-06-15 11:32:04.3787 ${level} Request finished HTTP/2 POST https://localhost:44348/api/Inventory/AddStock application/json 46 - 200 - application/json;+charset=utf-8 9158.9966ms
+2024-06-15 11:32:19.0087 ${level} Request starting HTTP/2 POST https://localhost:44348/api/Inventory/AddStock application/json 47
+2024-06-15 11:32:19.0087 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication)'
+2024-06-15 11:32:19.0087 ${level} Route matched with {action = "AddStocks", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddStocks(ModelLayer.Model.InventoryStockModel) on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:32:19.0087 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:32:19.0087 ${level} Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [InventoryTable] ([Last_Updated], [Quantity_In_Stock], [WarehouseId])
+VALUES (@p0, @p1, @p2);
+SELECT [ProductId]
+FROM [InventoryTable]
+WHERE @@ROWCOUNT = 1 AND [ProductId] = scope_identity();
+2024-06-15 11:32:19.0256 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[RepositoryLayer.Entities.InventoryEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 11:32:19.0256 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication) in 16.1111ms
+2024-06-15 11:32:19.0256 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.AddStocks (FundooNotesApplication)'
+2024-06-15 11:32:23.1111 ${level} Error closing the session.
+2024-06-15 11:32:23.1194 ${level} Request finished HTTP/2 POST https://localhost:44348/api/Inventory/AddStock application/json 47 - 200 - application/json;+charset=utf-8 4110.5267ms
+2024-06-15 11:33:03.1115 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - -
+2024-06-15 11:33:03.1115 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:33:03.1115 ${level} Route matched with {action = "GetAllProducts", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:33:03.1165 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:33:03.1548 ${level} Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[ProductId], [i].[Last_Updated], [i].[Quantity_In_Stock], [i].[WarehouseId]
+FROM [InventoryTable] AS [i]
+2024-06-15 11:33:03.1664 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RepositoryLayer.Entities.InventoryEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-06-15 11:33:03.1870 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication) in 72.9365ms
+2024-06-15 11:33:03.1870 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:33:12.3119 ${level} Error closing the session.
+2024-06-15 11:33:12.3119 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - - - 200 - application/json;+charset=utf-8 9206.3407ms
+2024-06-15 11:33:53.5818 ${level} Request starting HTTP/2 PUT https://localhost:44348/api/Inventory/UpdateProductsStock application/json 64
+2024-06-15 11:33:53.5818 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.UpdateProductsStock (FundooNotesApplication)'
+2024-06-15 11:33:53.6032 ${level} Route matched with {action = "UpdateProductsStock", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateProductsStock(ModelLayer.Model.StockUpdateModel) on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:33:53.6167 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:33:53.8742 ${level} Executed DbCommand (11ms) [Parameters=[@__model_ProductId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[ProductId], [i].[Last_Updated], [i].[Quantity_In_Stock], [i].[WarehouseId]
+FROM [InventoryTable] AS [i]
+WHERE [i].[ProductId] = @__model_ProductId_0
+2024-06-15 11:33:53.8951 ${level} Executed DbCommand (8ms) [Parameters=[@p3='?' (DbType = Int64), @p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [InventoryTable] SET [Last_Updated] = @p0, [Quantity_In_Stock] = @p1, [WarehouseId] = @p2
+WHERE [ProductId] = @p3;
+SELECT @@ROWCOUNT;
+2024-06-15 11:33:53.9017 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[RepositoryLayer.Entities.InventoryEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 11:33:53.9017 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.UpdateProductsStock (FundooNotesApplication) in 297.266ms
+2024-06-15 11:33:53.9017 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.UpdateProductsStock (FundooNotesApplication)'
+2024-06-15 11:33:57.9756 ${level} Error closing the session.
+2024-06-15 11:33:57.9756 ${level} Request finished HTTP/2 PUT https://localhost:44348/api/Inventory/UpdateProductsStock application/json 64 - 200 - application/json;+charset=utf-8 4396.2187ms
+2024-06-15 11:34:08.8075 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - -
+2024-06-15 11:34:08.8075 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:34:08.8075 ${level} Route matched with {action = "GetAllProducts", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:34:08.8075 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:34:08.8222 ${level} Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[ProductId], [i].[Last_Updated], [i].[Quantity_In_Stock], [i].[WarehouseId]
+FROM [InventoryTable] AS [i]
+2024-06-15 11:34:08.8381 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RepositoryLayer.Entities.InventoryEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-06-15 11:34:08.8381 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication) in 27.7542ms
+2024-06-15 11:34:08.8381 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:34:17.9680 ${level} Error closing the session.
+2024-06-15 11:34:17.9680 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - - - 200 - application/json;+charset=utf-8 9163.8817ms
+2024-06-15 11:46:14.5706 ${level} User profile is available. Using 'C:\Users\oooyeeeee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 11:46:16.5436 ${level} Application started. Press Ctrl+C to shut down.
+2024-06-15 11:46:16.5575 ${level} Hosting environment: Development
+2024-06-15 11:46:16.5575 ${level} Content root path: C:\Users\oooyeeeee\source\repos\FundooNotesApplication\
+2024-06-15 11:46:16.6241 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 11:46:17.6523 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 1032.2232ms
+2024-06-15 11:46:17.6834 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 11:46:17.7572 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 11:46:17.7712 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 13.3807ms
+2024-06-15 11:46:17.9390 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 255.5118ms
+2024-06-15 11:46:18.8382 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 11:46:19.6100 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 771.6628ms
+2024-06-15 11:46:26.1623 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - -
+2024-06-15 11:46:26.3112 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:46:26.3546 ${level} Route matched with {action = "GetAllProducts", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:46:30.3985 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:46:32.4355 ${level} Executed DbCommand (78ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[ProductId], [i].[Last_Updated], [i].[Quantity_In_Stock], [i].[WarehouseId]
+FROM [InventoryTable] AS [i]
+2024-06-15 11:46:32.6914 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RepositoryLayer.Entities.InventoryEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-06-15 11:46:32.7487 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication) in 6385.2053ms
+2024-06-15 11:46:32.7487 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:46:42.3219 ${level} Error closing the session.
+2024-06-15 11:46:42.3786 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - - - 200 - application/json;+charset=utf-8 16216.2426ms
+2024-06-15 11:46:58.8976 ${level} Request starting HTTP/2 DELETE https://localhost:44348/api/Inventory/DeleteProduct?ProductId=3 - -
+2024-06-15 11:46:58.8976 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.DeleteProductById (FundooNotesApplication)'
+2024-06-15 11:46:58.9553 ${level} Route matched with {action = "DeleteProductById", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteProductById(Int64) on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:46:59.0249 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:46:59.3969 ${level} Executed DbCommand (77ms) [Parameters=[@__ProductId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[ProductId], [i].[Last_Updated], [i].[Quantity_In_Stock], [i].[WarehouseId]
+FROM [InventoryTable] AS [i]
+WHERE [i].[ProductId] = @__ProductId_0
+2024-06-15 11:46:59.7367 ${level} Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [InventoryTable]
+WHERE [ProductId] = @p0;
+SELECT @@ROWCOUNT;
+2024-06-15 11:46:59.8067 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[RepositoryLayer.Entities.InventoryEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 11:46:59.8067 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.DeleteProductById (FundooNotesApplication) in 856.3263ms
+2024-06-15 11:46:59.8067 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.DeleteProductById (FundooNotesApplication)'
+2024-06-15 11:47:08.9641 ${level} Error closing the session.
+2024-06-15 11:47:08.9641 ${level} Request finished HTTP/2 DELETE https://localhost:44348/api/Inventory/DeleteProduct?ProductId=3 - - - 200 - application/json;+charset=utf-8 10070.1154ms
+2024-06-15 11:47:28.4834 ${level} Request starting HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - -
+2024-06-15 11:47:28.4834 ${level} Executing endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:47:28.4834 ${level} Route matched with {action = "GetAllProducts", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller FundooNotesApplication.Controllers.InventoryController (FundooNotesApplication).
+2024-06-15 11:47:28.6637 ${level} Entity Framework Core 6.0.0 initialized 'FundooNotesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-06-15 11:47:28.6711 ${level} Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[ProductId], [i].[Last_Updated], [i].[Quantity_In_Stock], [i].[WarehouseId]
+FROM [InventoryTable] AS [i]
+2024-06-15 11:47:28.6711 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[RepositoryLayer.Entities.InventoryEntity, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-06-15 11:47:28.6711 ${level} Executed action FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication) in 184.4065ms
+2024-06-15 11:47:28.6711 ${level} Executed endpoint 'FundooNotesApplication.Controllers.InventoryController.GetAllProducts (FundooNotesApplication)'
+2024-06-15 11:47:32.7497 ${level} Error closing the session.
+2024-06-15 11:47:32.7497 ${level} Request finished HTTP/2 GET https://localhost:44348/api/Inventory/GetAllProductsStock - - - 200 - application/json;+charset=utf-8 4268.5793ms
+2024-06-15 12:35:56.5159 ${level} User profile is available. Using 'C:\Users\oooyeeeee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 12:35:57.1426 ${level} Application started. Press Ctrl+C to shut down.
+2024-06-15 12:35:57.1426 ${level} Hosting environment: Development
+2024-06-15 12:35:57.1426 ${level} Content root path: C:\Users\oooyeeeee\source\repos\FundooNotesApplication\
+2024-06-15 12:35:57.1758 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 12:35:57.5871 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 411.6247ms
+2024-06-15 12:35:57.5907 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 12:35:57.5907 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 12:35:57.5907 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 11.1012ms
+2024-06-15 12:35:57.6806 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 89.7542ms
+2024-06-15 12:35:58.0666 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 12:35:58.3032 ${level} An unhandled exception has occurred while executing the request.
+2024-06-15 12:35:58.4413 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 374.7093ms
+2024-06-15 12:36:19.6283 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/index.html - -
+2024-06-15 12:36:19.6380 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/index.html - - - 200 - text/html;charset=utf-8 9.6581ms
+2024-06-15 12:36:19.6519 ${level} Request starting HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 12:36:19.6519 ${level} Request starting HTTP/2 GET https://localhost:44348/_vs/browserLink - -
+2024-06-15 12:36:19.6519 ${level} Request finished HTTP/2 GET https://localhost:44348/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 1.8591ms
+2024-06-15 12:36:19.6771 ${level} Request finished HTTP/2 GET https://localhost:44348/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.5507ms
+2024-06-15 12:36:19.8154 ${level} Request starting HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - -
+2024-06-15 12:36:19.8216 ${level} An unhandled exception has occurred while executing the request.
+2024-06-15 12:36:19.8216 ${level} Request finished HTTP/2 GET https://localhost:44348/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 7.6716ms
